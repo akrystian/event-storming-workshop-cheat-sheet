@@ -5,17 +5,17 @@
 - Określenie celu - określenie celu warsztatu i zakresu modelowanego procesu
 
 ## Etapy warsztatu:
-#### **Wild exploration**
+#### 1. **Wild exploration**
 Mapowanie procesu za pomocą zdarzeń - na tym etapie zależy nam na zmapowaniu procesu biznesowego bez zachowania chronologicznego porządku zdarzeń.
-#### **Enforce timeline**
+#### 2. **Enforce timeline**
 Porządkowanie - na tym etapie staramy się ułożyć eventy w kolejności chronologicznej zakładając
 - w części centralnej główną ścieżkę modelowanego procesu
 - usuwamy duplikaty
 - aby zrównoleglić układanie możemy znaleźć kilka głównych zdarzeń procesu i rozłożyć je równomiernie na osi
-#### **Explicit walk-through**
+#### 3. **Explicit walk-through**
 - Przegląd w przód - jedna z uczestników warsztatu stara się opowiedzieć historię happy path - weryfikujemy w ten sposób czy nie brakuje zdarzeń w modelowanym procesie.
 - Przegląd w tył - staramy się przejść główną ścieżkę procesu od końca do początku - zadajemy pytania co musiało się zdarzyć, aby zadziało się analizowane zdarzenie
-#### **Actors and external systems**
+#### 4. **Actors and external systems**
 Dodanie aktorów i zewnętrznych systemów
 - dodanie aktorów, którzy powodują wystąpienie określonych zdarzeń
 - dodanie systemów zewnętrznych mogących 
