@@ -1,37 +1,47 @@
-# Big picture
+# EventStorming: Big Picture
 
-## Przygotowanie do warsztatu:
-- Zaproszenie odpowiednich osób - jedna z **najważniejszych rzeczy w tej metodyce to zaproszenie odpowiednich osób na warsztat**. Zależy nam na osobach, które dobrze znają proces biznesowy
-- Określenie celu - określenie celu warsztatu i zakresu modelowanego procesu
+## Przygotowanie:
+
+- **Wybór uczestników**: Kluczowe jest zaproszenie osób, które dogłębnie rozumieją proces biznesowy.
+- **Definiowanie celu**: Precyzyjne określenie zakresu analizy oraz tego, co pozostaje poza nią.
+- **Tworzenie glosariusza**: Aby zapewnić spójność i jasność, warto ustalić i zapisywać kluczowe definicje, kreując wspólny język domenowy.
 
 ## Etapy warsztatu:
-#### 1. **Wild exploration**
-Mapowanie procesu za pomocą zdarzeń - na tym etapie zależy nam na zmapowaniu procesu biznesowego bez zachowania chronologicznego porządku zdarzeń.
-#### 2. **Enforce timeline**
-Porządkowanie - na tym etapie staramy się ułożyć eventy w kolejności chronologicznej zakładając
-- w części centralnej główną ścieżkę modelowanego procesu
-- usuwamy duplikaty
-- aby zrównoleglić układanie możemy znaleźć kilka głównych zdarzeń procesu i rozłożyć je równomiernie na osi
-#### 3. **Explicit walk-through**
-- Przegląd w przód - jedna z uczestników warsztatu stara się opowiedzieć historię happy path - weryfikujemy w ten sposób czy nie brakuje zdarzeń w modelowanym procesie.
-- Przegląd w tył - staramy się przejść główną ścieżkę procesu od końca do początku - zadajemy pytania co musiało się zdarzyć, aby zadziało się analizowane zdarzenie
-#### 4. **Actors and external systems**
-Dodanie aktorów i zewnętrznych systemów
-- dodanie aktorów, którzy powodują wystąpienie określonych zdarzeń
-- dodanie systemów zewnętrznych mogących 
+
+#### 1. **Wild Exploration**
+- Swobodne mapowanie procesu poprzez zdarzenia, bez uwzględnienia ich chronologicznej kolejności.
+
+#### 2. **Enforce Timeline**
+- Organizacja zdarzeń w logicznej sekwencji, gdzie:
+  - główna ścieżka procesu jest w centrum,
+  - eliminowane są powtarzające się elementy,
+  - kilka kluczowych zdarzeń może służyć jako punkty orientacyjne w układzie na osi czasu.
+
+#### 3. **Explicit Walk-Through**
+- **Przegląd w przód**: Rekonstrukcja "szczęśliwej ścieżki" procesu, weryfikując kompletność modelu.
+- **Przegląd w tył**: Analiza procesu od końca do początku, identyfikując zdarzenia prowadzące do kolejnych etapów.
+
+#### 4. **Actors and External Systems**
+- Wskazanie aktorów zaangażowanych w proces oraz systemów zewnętrznych wpływających na jego przebieg.
+
+#### 5. **Szanse i ryzyka**
+- Analiza procesu pozwala na wskazanie szans i ryzyk związanych z jego obecną postacią.
+
 ## Gramatyka:
 
 #### Zdarzenie - pomarańczowa kartka
 ![zdarzenie](./images/event.png)
-- istotna zmiana stanu w modelowanym procesie biznesowym
-- napisane w formie przeszłej dokonanej
-- w konkretnym momencie czasu
+- Kluczowa zmiana w analizowanym procesie.
+- Opis w formie przeszłej dokonanej.
+- Powiązana z konkretnym momentem.
+- Dla jasności autorstwa warto oznaczyć karteczkę inicjałami osoby ją dodającej.
 
-#### Hot spot - różowa kartka
+#### Hot Spot - różowa kartka
 ![hot spot](./images/hot_spot.png)
-- wszelkie niepewności założenia, ryzyka i pytania
-- staramy się powstrzymać długie dyskusje i zaadresować je w późniejszym terminie
+- Wszystkie niejasności, ryzyka i pytania. Zamiast wdawać się w długie dyskusje, warto je odnotować i wrócić do nich później.
+
 #### Aktor - żółta kartka
 ![aktor](./images/actor.png)
-#### System zewnętrzny - niebieska kartka
+
+#### System Zewnętrzny - niebieska kartka
 ![system zewnętrzny](./images/external_system.png)
