@@ -10,19 +10,26 @@
 
 #### 1. **Wild Exploration**
 - Swobodne mapowanie procesu poprzez zdarzenia, bez uwzględnienia ich chronologicznej kolejności.
+- Facilitator może dodać pierwszą zdarzenie jako icebreaker.
+- W tej fazie nie pracujemy razem tylko każdy z osobna.
+
+- Warto docenić pracę uczestników. **Można zrobić krótką przerwę. **
 
 #### 2. **Enforce Timeline**
 - Organizacja zdarzeń w logicznej sekwencji, gdzie:
+  - sortowanie przy użyciu (np. zdarzeń piwotowych) 
   - główna ścieżka procesu jest w centrum,
-  - eliminowane są powtarzające się elementy,
+  - zebranie powtarzających się elementów blisko siebie,
   - kilka kluczowych zdarzeń może służyć jako punkty orientacyjne w układzie na osi czasu.
 
-#### 3. **Explicit Walk-Through**
+#### 3. **Actors and External Systems**
+- Wskazanie aktorów zaangażowanych w proces oraz systemów zewnętrznych wpływających na jego przebieg.
+
+#### 4. **Explicit Walk-Through**
 - **Przegląd w przód**: Rekonstrukcja "szczęśliwej ścieżki" procesu, weryfikując kompletność modelu.
 - **Przegląd w tył**: Analiza procesu od końca do początku, identyfikując zdarzenia prowadzące do kolejnych etapów.
 
-#### 4. **Actors and External Systems**
-- Wskazanie aktorów zaangażowanych w proces oraz systemów zewnętrznych wpływających na jego przebieg.
+
 
 #### 5. **Szanse i ryzyka**
 - Analiza procesu pozwala na wskazanie szans i ryzyk związanych z jego obecną postacią.
@@ -33,8 +40,6 @@
 ![zdarzenie](./images/event.png)
 - Kluczowa zmiana w analizowanym procesie.
 - Opis w formie przeszłej dokonanej.
-- Powiązana z konkretnym momentem.
-- Dla jasności autorstwa warto oznaczyć karteczkę inicjałami osoby ją dodającej.
 
 #### Hot Spot - różowa kartka
 ![hot spot](./images/hot_spot.png)
